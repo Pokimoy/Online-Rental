@@ -1,0 +1,605 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Raylcar - Car Rental</title>
+    <link rel="icon" type="image/png" href="assets/images/logo-web.png">
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootstrapmb.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main-color.css">
+</head>
+<body class="biolife-body">
+    
+
+    <!-- Preloader -->
+    <div id="biof-loading">
+        <div class="biof-loading-center">
+            <div class="biof-loading-center-absolute">
+                <div class="dot dot-one"></div>
+                <div class="dot dot-two"></div>
+                <div class="dot dot-three"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header id="header" class="header-area style-01 layout-03">
+        <div class="header-top bg-main hidden-xs">
+            <div class="container">
+                <div class="top-bar left">
+                    <ul class="horizontal-menu">
+                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>Xinrui.hu-1@student.uts.edu.au</a></li>
+                        <li><a href="#">Convenient Online Cars Rental</a></li>
+                    </ul>
+                </div>
+                <div class="top-bar right">
+                    <ul class="social-list">
+                        <li><a href="https://twitter.com/MaackiaR"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100027872982316"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/maackia.z/?next=%2F"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="horizontal-menu">
+                        <li><a href="login.html" class="login-link"><i class="biolife-icon icon-login"></i>Login/Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle biolife-sticky-object ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-2 col-md-6 col-xs-6">
+                        <a href="index.html" class="biolife-logo"><img src="assets/images/organic-3.png" alt="biolife logo" width="135" height="34"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-7 hidden-sm hidden-xs">
+                        <div class="primary-menu">
+                        <ul class="menu biolife-menu clone-main-menu clone-primary-menu" id="primary-menu" data-menuname="main menu">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+                            <li class="menu-item menu-item-has-children has-megamenu">
+                                <a href="category_A_grid_lsidebar.html" class="menu-name" data-title="Shop" >Cars</a>
+                                <div class="wrap-megamenu lg-width-400 md-width-750">
+                                    <div class="mega-content">
+                                        <div class="col-lg-6 col-md-6 col-xs-12 md-margin-bottom-0 xs-margin-bottom-25">
+                                            <div class="wrap-custom-menu vertical-menu">
+                                                <h4 class="menu-title">Type</h4>
+                                                <ul class="menu">
+                                                    <li><a href="Category_Sedan.html">Sedan</a></li>
+                                                    <li><a href="Category_Wagon.html">Wagon</a></li>
+                                                    <li><a href="Category_SUV.html">SUV</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-xs-12 md-margin-bottom-0 xs-margin-bottom-25">
+                                            <div class="wrap-custom-menu vertical-menu">
+                                                <h4 class="menu-title">Brand</h4>
+                                                <ul class="menu">
+                                                    <li><a href="Category_Ford.html">Ford</a></li>
+                                                    <li><a href="Category_Mazda.html">Mazda</a></li>
+                                                    <li><a href="Category_BMW.html">BMW</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                <li class="menu-item"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-md-6 col-xs-6">
+                        <div class="biolife-cart-info">
+                            <div class="mobile-search">
+                                <a href="javascript:void(0)" class="open-searchbox"><i class="biolife-icon icon-search"></i></a>
+                                <div class="mobile-search-content">
+                                    <form action="category_A_grid_lsidebar.html" class="form-search" name="mobile-search" method="get">
+                                        <a href="#" class="btn-close"><span class="biolife-icon icon-close-menu"></span></a>
+                                        <input type="text" name="s" class="input-text" value="" placeholder="Search here...">
+                                        <button type="submit" class="btn-submit">go</button>
+                                    </form>                                    
+                                </div>
+                            </div>
+                            
+                            <div class="minicart-block">
+                                <p class="buttons">
+                                    <a href="checkout.html" class="btn btn-bold" style="width: 200px;">Booking</a>
+                                </p>
+
+                            <div class="mobile-menu-toggle">
+                                <a class="btn-toggle" data-object="open-mobile-menu" href="javascript:void(0)">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom hidden-sm hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="vertical-menu vertical-category-block">
+                            <div class="block-title">
+                                <span class="menu-icon">
+                                    <span class="line-1"></span>
+                                    <span class="line-2"></span>
+                                    <span class="line-3"></span>
+                                </span>
+                                <span class="menu-title">All departments</span>
+                                <span class="angle" data-tgleclass="fa fa-caret-down"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
+                            </div>
+                        <div class="wrap-menu">
+                            <ul class="menu clone-main-menu">
+                                <li class="menu-item menu-item-has-children has-megamenu">
+                                    <a href="#" class="menu-name" data-title="Fruit & Nut Gifts"><i></i>Brand</a>
+                                    <div class="wrap-megamenu lg-width-900 md-width-640">
+                                        <div class="mega-content">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 col-sm-12 xs-margin-bottom-25 md-margin-bottom-0">
+                                                    <div class="wrap-custom-menu vertical-menu">
+                                                        <div style="height: 50px;"></div> 
+                                                        <h4 class="menu-title" style="font-size: 36px;">Brand</h4>
+                                                        <div style="height: 20px;"></div> 
+                                                        <ul class="menu">
+                                                            <li><a href="Category_BMW.html" style="font-size: 18px;">BWM</a></li>
+                                                            <div style="height: 10px;"></div>
+                                                            <li><a href="Category_Ford.html" style="font-size: 18px;">Ford</a></li>
+                                                            <div style="height: 10px;"></div>  
+                                                            <li><a href="Category_Mazda.html" style="font-size: 18px;">Mazda</a></li>
+                                                            <div style="height: 150px;"></div> 
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-12 lg-padding-left-23 xs-margin-bottom-25 md-margin-bottom-0">
+                                                    <div class="wrap-custom-menu vertical-menu">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-4 col-sm-12 lg-padding-left-50 xs-margin-bottom-25 md-margin-bottom-0">
+                                                    <div class="biolife-products-block max-width-270">
+                                                        <h4 class="menu-title">Popular Vehicles</h4>
+                                                        <ul class="products-list default-product-style biolife-carousel nav-none-after-1k2 nav-center" data-slick='{"rows":1,"arrows":true,"dots":false,"infinite":false,"speed":400,"slidesMargin":30,"slidesToShow":1, "responsive":[{"breakpoint":767, "settings":{ "arrows": false}}]}' >
+                                                            <li class="product-item">
+                                                                <div class="contain-product none-overlay">
+                                                                    <div class="product-thumb">
+                                                                        <a href="Scategory_A_grid_lsidebar.html" class="link-to-product">
+                                                                            <img src="assets/images/car/BWM Sedan 3.png" alt="dd" width="270" height="270" class="product-thumnail">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="info">
+                                                                        <b class="categories">Snack</b>
+                                                                        <h4 class="product-title"><a href="category_A_grid_lsidebar.html" class="pr-name">BWM Sedan 3</a></h4>
+                                                                        <div class="price">
+                                                                            <ins><span class="price-amount"><span class="currencySymbol">$</span>100.00/Day</span></ins>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children has-megamenu">
+                                        <a href="#" class="menu-name" data-title="Fresh Berries"><i></i>Type</a>
+                                        <div class="wrap-megamenu lg-width-900 md-width-640 background-mega-02">
+                                            <div class="mega-content">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-4 sm-col-12 md-margin-bottom-83 xs-margin-bottom-25">
+                                                        <div class="wrap-custom-menu vertical-menu">
+                                                            <div style="height: 50px;"></div> 
+                                                            <h4 class="menu-title" style="font-size: 36px;">Type</h4>
+                                                            <div style="height: 20px;"></div> 
+                                                            <ul class="menu">
+                                                                <li><a href="Category_Sedan.html" style="font-size: 18px;">Sedan</a></li>
+                                                                <div style="height: 10px;"></div>
+                                                                <li><a href="Category_Wagon.html" style="font-size: 18px;">Wagon</a></li>
+                                                                <div style="height: 10px;"></div>  
+                                                                <li><a href="Category_SUV.html" style="font-size: 18px;">SUV</a></li>
+                                                                <div style="height: 70px;"></div> 
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-sm-12 lg-padding-left-23 xs-margin-bottom-25 md-margin-bottom-0">
+                                                        <div class="wrap-custom-menu vertical-menu">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-4 col-sm-12 lg-padding-left-50 xs-margin-bottom-25 md-margin-bottom-0">
+                                                        <div class="biolife-products-block max-width-270">
+                                                            <h4 class="menu-title">Popular Vehicles</h4>
+                                                            <ul class="products-list default-product-style biolife-carousel nav-none-after-1k2 nav-center" data-slick='{"rows":1,"arrows":true,"dots":false,"infinite":false,"speed":400,"slidesMargin":30,"slidesToShow":1, "responsive":[{"breakpoint":767, "settings":{ "arrows": false}}]}' >
+                                                                <li class="product-item">
+                                                                    <div class="contain-product none-overlay">
+                                                                        <div class="product-thumb">
+                                                                            <a href="category_A_grid_lsidebar.html" class="link-to-product">
+                                                                                <img src="assets/images/car/BWM Sedan 2.png" alt="dd" width="270" height="270" class="product-thumnail">
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="info">
+                                                                            <b class="categories">Snack</b>
+                                                                            <h4 class="product-title"><a href="category_A_grid_lsidebar.html" class="pr-name">BWM Sedan 2</a></h4>
+                                                                            <div class="price">
+                                                                                <ins><span class="price-amount"><span class="currencySymbol">$</span>100.00/Day</span></ins>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 padding-top-2px">
+                        <div class="header-search-bar layout-01">
+                            <form action="#" class="form-search" id="search-form" method="get">
+                                <input type="text" name="s" class="input-text" value="" placeholder="Search here..." id="search-input">
+                                <button type="submit" class="btn-submit"><i class="biolife-icon icon-search"></i></button>
+                            </form>
+                            <div id="recent-searches" class="recent-searches"></div>
+                            <div id="suggestions" class="suggestions"></div>
+                        </div>
+                        
+                        <div class="live-info">
+                            <p class="telephone"><i class="fa fa-phone" aria-hidden="true"></i><b class="phone-number">(+61) 123 456 789</b></p>
+                            <p class="working-time">Mon-Fri: 8:30am-7:30pm; Sat-Sun: 9:30am-4:30pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Hero Section-->
+    <div class="hero-section hero-background">
+        <h1 class="page-title">Car Rental</h1>
+    </div>
+
+    <!--Navigation section-->
+    <div class="container">
+        <nav class="biolife-nav">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="permal-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="permal-link">Cars</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="page-contain category-page left-sidebar">
+        <div class="container">
+            <div class="row">
+                <!-- Main content -->
+                <div id="main-content" class="main-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="block-item recently-products-cat md-margin-bottom-39">
+                        
+                            
+
+                    <div class="product-category grid-style">
+
+                        <div id="top-functions-area" class="top-functions-area" >
+                            <div class="flt-item to-left group-on-mobile">
+                                <span class="flt-title">Refine</span>
+                                <a href="#" class="icon-for-mobile">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                                <div class="wrap-selectors">
+                                    <form action="#" name="frm-refine" method="get">
+                                        <span class="title-for-mobile">Refine Products By</span>
+                                        <div data-title="-" class="selector-item">
+                                            
+                                        </div>
+                                        <div data-title="-" class="selector-item">
+                                          
+                                        </div>
+                                        <div data-title="Avalability:" class="selector-item">
+                                            <select name="ability" id="availabilitySelector" class="selector">
+                                                <option value="all">All Cars Rental</option>
+                                                <option value="vl1">Availability</option>
+                                                <option value="vl2">Unavailability</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                        <p class="btn-for-mobile"><button type="submit" class="btn-submit">Go</button></p>
+                                    </form>
+                                </div>
+                            </div>
+                            
+        <!-- Main shop details -->
+                        <div class="row">
+                            <ul id="availabilityProducts" class="product-list">
+                                <div id="search-results" class="search-results"></div>
+
+                                <li class="product-item col-lg-4 col-md-4 col-sm-4 col-xs-6 availability-vl1">
+                                    <div class="contain-product layout-default">
+                                        <div class="product-thumb">
+                                            <a href="#" class="link-to-product">
+                                                <img src="assets/images/car/Ford Sedan.jpeg" alt="dd" width="270" height="270" class="product-thumnail">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <b class="categories">Ford Sedan</b>
+                                            <h4 class="product-title"><a href="#" class="pr-name">Ford Sedan</a></h4>
+                                            <div class="price">
+                                                 <ins><span class="price-amount"><span class="currencySymbol">$</span>100.00/Day</span></ins>
+                                                 
+                                            </div>
+                                            <div class="shipping-info">
+                                                <p class="shipping-day">Automatic Transmission</p>
+                                                <p class="for-today">Available</p>
+                                            </div>
+                                            <div class="slide-down-box">
+                                                <p class="message">Cruise Control,MP3 player,Automatic air conditioning,Wifi,GPS Navigation</p>
+                                                <div class="buttons">
+                                                    <a href="#" class="btn add-to-cart-btn"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>RENT</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product-item col-lg-4 col-md-4 col-sm-4 col-xs-6 availability-vl1">
+                                    <div class="contain-product layout-default">
+                                        <div class="product-thumb">
+                                            <a href="#" class="link-to-product">
+                                                <img src="assets/images/car/Ford Wagon.jpeg" alt="dd" width="270" height="270" class="product-thumnail">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <b class="categories">Ford Wagon</b>
+                                            <h4 class="product-title"><a href="#" class="pr-name">Ford Wagon</a></h4>
+                                            <div class="price">
+                                                 <ins><span class="price-amount"><span class="currencySymbol">$</span>150.00/Day</span></ins>
+                                                 
+                                            </div>
+                                            <div class="shipping-info">
+                                                <p class="shipping-day">Automatic Transmission</p>
+                                                <p class="for-today">Available</p>
+                                            </div>
+                                            <div class="slide-down-box">
+                                                <p class="message">Cruise Control,MP3 player,Automatic air conditioning,Wifi,GPS Navigation</p>
+                                                <div class="buttons">
+                                                    <a href="#" class="btn add-to-cart-btn"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>RENT</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="product-item col-lg-4 col-md-4 col-sm-4 col-xs-6 availability-vl1">
+                                    <div class="contain-product layout-default">
+                                        <div class="product-thumb">
+                                            <a href="#" class="link-to-product">
+                                                <img src="assets/images/car/Ford SUV.jpeg" alt="dd" width="270" height="270" class="product-thumnail">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <b class="categories">Ford SUV</b>
+                                            <h4 class="product-title"><a href="#" class="pr-name">Ford SUV</a></h4>
+                                            <div class="price">
+                                                 <ins><span class="price-amount"><span class="currencySymbol">$</span>200.00/Day</span></ins>
+                                                 
+                                            </div>
+                                            <div class="shipping-info">
+                                                <p class="shipping-day">Automatic Transmission</p>
+                                                <p class="for-today">Available</p>
+                                            </div>
+                                            <div class="slide-down-box">
+                                                <p class="message">Cruise Control,MP3 player,Automatic air conditioning,Wifi,GPS Navigation</p>
+                                                <div class="buttons">
+                                                    <a href="#" class="btn add-to-cart-btn"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>RENT</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                </ul>
+
+                                <ul id="unavailabilityProducts" class="product-list">
+                            </ul>
+                        </div>
+
+                        <div class="biolife-panigations-block">
+                           
+                        </div>
+
+                    </div>
+
+                </div>
+         
+    <!-- FOOTER -->
+    <footer id="footer" class="footer layout-03">
+        <div class="footer-content background-footer-03">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-9">
+                        <section class="footer-item">
+                            <a class="logo footer-logo"><img src="assets/images/organic-3.png" alt="biolife logo" width="135" height="34"></a>
+                            <div class="footer-phone-info">
+                                <i class="biolife-icon icon-head-phone"></i>
+                                <p class="r-info">
+                                    <span>Got Questions ?</span>
+                                    <span>(+61)  123 456 789 </span>
+                                </p>
+                            </div>
+                            <div class="newsletter-block layout-01">
+                                <h4 class="title">Newsletter Signup</h4>
+                                <div class="form-content">
+                                    <form action="#" name="new-letter-foter">
+                                        <input type="email" class="input-text email" value="" placeholder="Your email here...">
+                                        <button type="submit" class="bnt-submit" name="ok">Sign up</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 md-margin-top-5px sm-margin-top-50px xs-margin-top-40px">
+                        <section class="footer-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6 col-xs-6">
+                                <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 md-margin-top-5px sm-margin-top-50px xs-margin-top-40px">
+                        <section class="footer-item">
+                            <h3 class="section-title">Transport Offices</h3>
+                            <div class="contact-info-block footer-layout xs-padding-top-10px">
+                                <ul class="contact-lines">
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-location"></i>
+                                            <b class="desc">University of Technology Sydney</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-phone"></i>
+                                            <b class="desc">Phone: (+61) 123 456 789</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-letter"></i>
+                                            <b class="desc">Email:  Xinrui.hu-1@student.uts.edu.au</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-clock"></i>
+                                            <b class="desc">Hours: 7 Days a week from 10:00 am</b>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="biolife-social inline">
+                                <ul class="socials">
+                                    <li><a href="https://twitter.com/MaackiaR" title="twitter" class="socail-btn"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100027872982316" title="facebook" class="socail-btn"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.pinterest.com.au/pokimoy/" title="pinterest" class="socail-btn"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCLZTZ8i0nhCbxHgM3SzCVMQ" title="youtube" class="socail-btn"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.instagram.com/maackia.z/?next=%2F" title="instagram" class="socail-btn"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="separator sm-margin-top-70px xs-margin-top-40px"></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="copy-right-text"></a></p></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="payment-methods">
+                            <ul>
+                                <li><img src="assets/images/card1.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card2.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card3.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card4.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card5.jpg" width="51" height="36" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+    <!-- Scroll Top Button -->
+    <a class="btn-scroll-top"><i class="biolife-icon icon-left-arrow"></i></a>
+
+     <!-- rent btn -->
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const rentButtons = document.querySelectorAll('.add-to-cart-btn');
+            rentButtons.forEach(button => {
+                button.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const productItem = button.closest('.product-item');
+                    const carName = productItem.querySelector('.pr-name').textContent;
+                    const price = productItem.querySelector('.price-amount').textContent;
+                    const imageSrc = productItem.querySelector('img').src;
+                    const availability = productItem.querySelector('.for-today').textContent;
+                    
+                    const carDetails = {
+                        name: carName,
+                        price: price,
+                        image: imageSrc,
+                        availability: availability
+                    };
+        
+                    let cars = JSON.parse(localStorage.getItem('rentalCars')) || [];
+                    cars.push(carDetails);
+                    localStorage.setItem('rentalCars', JSON.stringify(cars));
+        
+                    window.location.href = 'checkout.html';
+                });
+            });
+        });
+    </script>        
+
+     <!-- JS code -->
+     <script>
+        
+        document.addEventListener("DOMContentLoaded", function() {
+    var form = document.querySelector('form[name="frm-refine"]');
+    var selector = document.getElementById('availabilitySelector');
+    var availableProducts = document.getElementById('availabilityProducts');
+    var unavailableProducts = document.getElementById('unavailabilityProducts');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        updateProductDisplay(); 
+    });
+
+    function updateProductDisplay() {
+        if (selector.value === 'vl1') {
+            availableProducts.style.display = 'block'; 
+            unavailableProducts.style.display = 'none'; 
+        } else if (selector.value === 'vl2') {
+            availableProducts.style.display = 'none'; 
+            unavailableProducts.style.display = 'block'; 
+        } else {
+            availableProducts.style.display = 'block'; 
+            unavailableProducts.style.display = 'block'; 
+        }
+    }
+});
+
+    </script>
+        
+   
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="http://cdn.bootstrapmb.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/biolife.framework.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Raylcar - Car Rental</title>
+    <link rel="icon" type="image/png" href="assets/images/logo-web.png">
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootstrapmb.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main-color.css">
+</head>
+<body class="biolife-body">
+
+    <!-- Preloader -->
+    <div id="biof-loading">
+        <div class="biof-loading-center">
+            <div class="biof-loading-center-absolute">
+                <div class="dot dot-one"></div>
+                <div class="dot dot-two"></div>
+                <div class="dot dot-three"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header id="header" class="header-area style-01 layout-03">
+        <div class="header-top bg-main hidden-xs">
+            <div class="container">
+                <div class="top-bar left">
+                    <ul class="horizontal-menu">
+                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>Xinrui.hu-1@student.uts.edu.au</a></li>
+                        <li><a href="#">Convenient Online Cars Rental</a></li>
+                    </ul>
+                </div>
+                <div class="top-bar right">
+                    <ul class="social-list">
+                        <li><a href="https://twitter.com/MaackiaR"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100027872982316"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/maackia.z/?next=%2F"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="horizontal-menu">
+                        <li><a href="login.html" class="login-link"><i class="biolife-icon icon-login"></i>Login/Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle biolife-sticky-object ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-2 col-md-6 col-xs-6">
+                        <a href="index.html" class="biolife-logo"><img src="assets/images/organic-3.png" alt="biolife logo" width="135" height="34"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-7 hidden-sm hidden-xs">
+                        <div class="primary-menu">
+                        <ul class="menu biolife-menu clone-main-menu clone-primary-menu" id="primary-menu" data-menuname="main menu">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+                            <li class="menu-item menu-item-has-children has-megamenu">
+                                <a href="category_A_grid_lsidebar.html" class="menu-name" data-title="Shop" >Cars</a>
+                                <div class="wrap-megamenu lg-width-400 md-width-750">
+                                    <div class="mega-content">
+                                        <div class="col-lg-6 col-md-6 col-xs-12 md-margin-bottom-0 xs-margin-bottom-25">
+                                            <div class="wrap-custom-menu vertical-menu">
+                                                <h4 class="menu-title">Type</h4>
+                                                <ul class="menu">
+                                                    <li><a href="Category_Sedan.html">Sedan</a></li>
+                                                    <li><a href="Category_Wagon.html">Wagon</a></li>
+                                                    <li><a href="Category_SUV.html">SUV</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-xs-12 md-margin-bottom-0 xs-margin-bottom-25">
+                                            <div class="wrap-custom-menu vertical-menu">
+                                                <h4 class="menu-title">Brand</h4>
+                                                <ul class="menu">
+                                                    <li><a href="Category_Ford.html">Ford</a></li>
+                                                    <li><a href="Category_Mazda.html">Mazda</a></li>
+                                                    <li><a href="Category_BMW.html">BMW</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                <li class="menu-item"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-md-6 col-xs-6">
+                        <div class="biolife-cart-info">
+                            <div class="mobile-search">
+                                <a href="javascript:void(0)" class="open-searchbox"><i class="biolife-icon icon-search"></i></a>
+                                <div class="mobile-search-content">
+                                    <form action="category_A_grid_lsidebar.html" class="form-search" name="mobile-search" method="get">
+                                        <a href="#" class="btn-close"><span class="biolife-icon icon-close-menu"></span></a>
+                                        <input type="text" name="s" class="input-text" value="" placeholder="Search here...">
+                                        <button type="submit" class="btn-submit">go</button>
+                                    </form>                                    
+                                </div>
+                            </div>
+                            
+                            <div class="minicart-block">
+                                <p class="buttons">
+                                    <a href="checkout.html" class="btn btn-bold" style="width: 200px;">Booking</a>
+                                </p>
+
+                            <div class="mobile-menu-toggle">
+                                <a class="btn-toggle" data-object="open-mobile-menu" href="javascript:void(0)">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom hidden-sm hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="vertical-menu vertical-category-block">
+                            <div class="block-title">
+                                <span class="menu-icon">
+                                    <span class="line-1"></span>
+                                    <span class="line-2"></span>
+                                    <span class="line-3"></span>
+                                </span>
+                                <span class="menu-title">All departments</span>
+                                <span class="angle" data-tgleclass="fa fa-caret-down"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
+                            </div>
+                        <div class="wrap-menu">
+                            <ul class="menu clone-main-menu">
+                                <li class="menu-item menu-item-has-children has-megamenu">
+                                    <a href="#" class="menu-name" data-title="Fruit & Nut Gifts"><i></i>Brand</a>
+                                    <div class="wrap-megamenu lg-width-900 md-width-640">
+                                        <div class="mega-content">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 col-sm-12 xs-margin-bottom-25 md-margin-bottom-0">
+                                                    <div class="wrap-custom-menu vertical-menu">
+                                                        <div style="height: 50px;"></div> 
+                                                        <h4 class="menu-title" style="font-size: 36px;">Brand</h4>
+                                                        <div style="height: 20px;"></div> 
+                                                        <ul class="menu">
+                                                            <li><a href="Category_BMW.html" style="font-size: 18px;">BWM</a></li>
+                                                            <div style="height: 10px;"></div>
+                                                            <li><a href="Category_Ford.html" style="font-size: 18px;">Ford</a></li>
+                                                            <div style="height: 10px;"></div>  
+                                                            <li><a href="Category_Mazda.html" style="font-size: 18px;">Mazda</a></li>
+                                                            <div style="height: 150px;"></div> 
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-12 lg-padding-left-23 xs-margin-bottom-25 md-margin-bottom-0">
+                                                    <div class="wrap-custom-menu vertical-menu">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-4 col-sm-12 lg-padding-left-50 xs-margin-bottom-25 md-margin-bottom-0">
+                                                    <div class="biolife-products-block max-width-270">
+                                                        <h4 class="menu-title">Popular Vehicles</h4>
+                                                        <ul class="products-list default-product-style biolife-carousel nav-none-after-1k2 nav-center" data-slick='{"rows":1,"arrows":true,"dots":false,"infinite":false,"speed":400,"slidesMargin":30,"slidesToShow":1, "responsive":[{"breakpoint":767, "settings":{ "arrows": false}}]}' >
+                                                            <li class="product-item">
+                                                                <div class="contain-product none-overlay">
+                                                                    <div class="product-thumb">
+                                                                        <a href="Scategory_A_grid_lsidebar.html" class="link-to-product">
+                                                                            <img src="assets/images/car/BWM Sedan 3.png" alt="dd" width="270" height="270" class="product-thumnail">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="info">
+                                                                        <b class="categories">Snack</b>
+                                                                        <h4 class="product-title"><a href="category_A_grid_lsidebar.html" class="pr-name">BWM Sedan 3</a></h4>
+                                                                        <div class="price">
+                                                                            <ins><span class="price-amount"><span class="currencySymbol">$</span>100.00/Day</span></ins>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children has-megamenu">
+                                        <a href="#" class="menu-name" data-title="Fresh Berries"><i></i>Type</a>
+                                        <div class="wrap-megamenu lg-width-900 md-width-640 background-mega-02">
+                                            <div class="mega-content">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-4 sm-col-12 md-margin-bottom-83 xs-margin-bottom-25">
+                                                        <div class="wrap-custom-menu vertical-menu">
+                                                            <div style="height: 50px;"></div> 
+                                                            <h4 class="menu-title" style="font-size: 36px;">Type</h4>
+                                                            <div style="height: 20px;"></div> 
+                                                            <ul class="menu">
+                                                                <li><a href="Category_Sedan.html" style="font-size: 18px;">Sedan</a></li>
+                                                                <div style="height: 10px;"></div>
+                                                                <li><a href="Category_Wagon.html" style="font-size: 18px;">Wagon</a></li>
+                                                                <div style="height: 10px;"></div>  
+                                                                <li><a href="Category_SUV.html" style="font-size: 18px;">SUV</a></li>
+                                                                <div style="height: 70px;"></div> 
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-sm-12 lg-padding-left-23 xs-margin-bottom-25 md-margin-bottom-0">
+                                                        <div class="wrap-custom-menu vertical-menu">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-4 col-sm-12 lg-padding-left-50 xs-margin-bottom-25 md-margin-bottom-0">
+                                                        <div class="biolife-products-block max-width-270">
+                                                            <h4 class="menu-title">Popular Vehicles</h4>
+                                                            <ul class="products-list default-product-style biolife-carousel nav-none-after-1k2 nav-center" data-slick='{"rows":1,"arrows":true,"dots":false,"infinite":false,"speed":400,"slidesMargin":30,"slidesToShow":1, "responsive":[{"breakpoint":767, "settings":{ "arrows": false}}]}' >
+                                                                <li class="product-item">
+                                                                    <div class="contain-product none-overlay">
+                                                                        <div class="product-thumb">
+                                                                            <a href="category_A_grid_lsidebar.html" class="link-to-product">
+                                                                                <img src="assets/images/car/BWM Sedan 2.png" alt="dd" width="270" height="270" class="product-thumnail">
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="info">
+                                                                            <b class="categories">Snack</b>
+                                                                            <h4 class="product-title"><a href="category_A_grid_lsidebar.html" class="pr-name">BWM Sedan 2</a></h4>
+                                                                            <div class="price">
+                                                                                <ins><span class="price-amount"><span class="currencySymbol">$</span>100.00/Day</span></ins>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 padding-top-2px">
+                        <div class="header-search-bar layout-01">
+                            <form action="#" class="form-search" id="search-form" method="get">
+                                <input type="text" name="s" class="input-text" value="" placeholder="Search here..." id="search-input">
+                                <button type="submit" class="btn-submit"><i class="biolife-icon icon-search"></i></button>
+                            </form>
+                            <div id="recent-searches" class="recent-searches"></div>
+                            <div id="suggestions" class="suggestions"></div>
+                        </div>
+                        
+                        <div class="live-info">
+                            <p class="telephone"><i class="fa fa-phone" aria-hidden="true"></i><b class="phone-number">(+61) 123 456 789</b></p>
+                            <p class="working-time">Mon-Fri: 8:30am-7:30pm; Sat-Sun: 9:30am-4:30pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Contain -->
+    <div class="page-contain">
+
+        <!-- Main content -->
+        <div id="main-content" class="main-content">
+
+                 <!-- Search Results -->
+                 <div id="search-results" class="search-results"></div>
+
+            <!--Block 01: Main slide-->
+            <div class="main-slide block-slider">
+                <ul class="biolife-carousel nav-none-on-mobile" data-slick='{"arrows": true, "dots": false, "slidesMargin": 0, "slidesToShow": 1, "infinite": true, "speed": 800}' >
+                    <li>
+                        <div class="slide-contain slider-opt03__layout01">
+                            <div class="media">
+                                <div class="child-elememt">
+                                    <a href="#" class="link-to">
+                                        <img src="assets/images/home-03/slide-01-child-01.png" width="804" height="580" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <i class="first-line">FIND THAT CAR</i>
+                                <h3 class="second-line">2015 Bentley Flying Spur</h3>
+                                <p class="third-line">6.6L V8 32V DDI OHV Turbo Diesel, Color: White</p>
+                                <p class="buttons">
+                                    <a href="#" class="btn btn-bold">Rent</a>
+                                    <a href="category_A_grid_lsidebar.html" class="btn btn-thin">View shop-page</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide-contain slider-opt03__layout01">
+                            <div class="media">
+                                <div class="child-elememt">
+                                    <a href="#" class="link-to">
+                                        <img src="assets/images/home-03/slide-01-child-01.png" width="804" height="580" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <i class="first-line">FIND THAT CAR</i>
+                                <h3 class="second-line">2015 Bentley Flying Spur</h3>
+                                <p class="third-line">6.6L V8 32V DDI OHV Turbo Diesel,Color: White</p>
+                                <p class="buttons">
+                                    <a href="#" class="btn btn-bold">Rent</a>
+                                    <a href="category_A_grid_lsidebar.html" class="btn btn-thin">View shop-page</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Block 02: Banner-->
+            <div class="special-slide">
+                <div class="container">
+                    <ul class="biolife-carousel dots_ring_style" data-slick='{"arrows": false, "dots": true, "slidesMargin": 30, "slidesToShow": 1, "infinite": true, "speed": 800, "responsive":[{"breakpoint":1200, "settings":{ "slidesToShow": 1}},{"breakpoint":768, "settings":{ "slidesToShow": 2, "slidesMargin":20, "dots": false}},{"breakpoint":480, "settings":{ "slidesToShow": 1}}]}' >
+                        <li>
+                            <div class="slide-contain biolife-banner__special">
+                                <div class="banner-contain">
+                                    <div class="media">
+                                        <a href="#" class="bn-link">
+                                            <figure><img src="assets/images/home-03/bn_special_org.jpg" width="616" height="483" alt=""></figure>
+                                        </a>
+                                    </div>
+                                    <div class="text-content">
+                                        <b class="first-line">Tesla Model X</b>
+                                        <span class="second-line">The Model X Plaid </span>
+                                        <span class="third-line">Has <i>Power & Acceleration</i></span>
+                                        <div class="product-detail">
+                                            <h4 class="product-name">National Fresh Fruit Production</h4>
+                                            <div class="price price-contain">
+                                                <ins><span class="price-amount"><span class="currencySymbol">$</span>100.00/Day</span></ins>
+                                            </div>
+                                            <div class="buttons">
+                                                <a href="#" class="btn add-to-cart-btn">Veiw Gallery</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="height: 50px;"></div>
+                    <div class="biolife-service type01 biolife-service__type01 sm-margin-top-0 xs-margin-top-45px">
+                        <b class="txt-show-01">100% Fair</b>
+                        <i class="txt-show-02">Cars Rental</i>
+                        <ul class="services-list">
+                            <li>
+                                <div class="service-inner">
+                                    <span class="number">1</span>
+                                    <span class="biolife-icon icon-beer"></span>
+                                    <a class="srv-name" href="category_A_grid_lsidebar.html">select a car type</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-inner">
+                                    <span class="number">2</span>
+                                    <span class="biolife-icon icon-schedule"></span>
+                                    <a class="srv-name" href="category_A_grid_lsidebar.html">place and delivery on time</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-inner">
+                                    <span class="number">3</span>
+                                    <span class="biolife-icon icon-car"></span>
+                                    <a class="srv-name" href="category_A_grid_lsidebar.html">collect your booking</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div style="height: 100px;"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+           
+    <!-- FOOTER -->
+    <footer id="footer" class="footer layout-03">
+        <div class="footer-content background-footer-03">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-9">
+                        <section class="footer-item">
+                            <a class="logo footer-logo"><img src="assets/images/organic-3.png" alt="biolife logo" width="135" height="34"></a>
+                            <div class="footer-phone-info">
+                                <i class="biolife-icon icon-head-phone"></i>
+                                <p class="r-info">
+                                    <span>Got Questions ?</span>
+                                    <span>(+61)  123 456 789 </span>
+                                </p>
+                            </div>
+                            <div class="newsletter-block layout-01">
+                                <h4 class="title">Newsletter Signup</h4>
+                                <div class="form-content">
+                                    <form action="#" name="new-letter-foter">
+                                        <input type="email" class="input-text email" value="" placeholder="Your email here...">
+                                        <button type="submit" class="bnt-submit" name="ok">Sign up</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 md-margin-top-5px sm-margin-top-50px xs-margin-top-40px">
+                        <section class="footer-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6 col-xs-6">
+                                <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 md-margin-top-5px sm-margin-top-50px xs-margin-top-40px">
+                        <section class="footer-item">
+                            <h3 class="section-title">Transport Offices</h3>
+                            <div class="contact-info-block footer-layout xs-padding-top-10px">
+                                <ul class="contact-lines">
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-location"></i>
+                                            <b class="desc">University of Technology Sydney</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-phone"></i>
+                                            <b class="desc">Phone: (+61) 123 456 789</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-letter"></i>
+                                            <b class="desc">Email:  Xinrui.hu-1@student.uts.edu.au</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="info-item">
+                                            <i class="biolife-icon icon-clock"></i>
+                                            <b class="desc">Hours: 7 Days a week from 10:00 am</b>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="biolife-social inline">
+                                <ul class="socials">
+                                    <li><a href="https://twitter.com/MaackiaR" title="twitter" class="socail-btn"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100027872982316" title="facebook" class="socail-btn"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.pinterest.com.au/pokimoy/" title="pinterest" class="socail-btn"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCLZTZ8i0nhCbxHgM3SzCVMQ" title="youtube" class="socail-btn"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.instagram.com/maackia.z/?next=%2F" title="instagram" class="socail-btn"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="separator sm-margin-top-70px xs-margin-top-40px"></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="copy-right-text"></a></p></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="payment-methods">
+                            <ul>
+                                <li><img src="assets/images/card1.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card2.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card3.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card4.jpg" width="51" height="36" alt=""></a></li>
+                                <li><img src="assets/images/card5.jpg" width="51" height="36" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <!-- Scroll Top Button -->
+    <a class="btn-scroll-top"><i class="biolife-icon icon-left-arrow"></i></a>
+
+    <!-- Add this JavaScript at the end of your body or in a separate JS file -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('search-input');
+        const searchForm = document.getElementById('search-form');
+        const recentSearches = document.getElementById('recent-searches');
+        const suggestions = document.getElementById('suggestions');
+        const searchResults = document.getElementById('search-results');
+
+        const recentKeywords = ['Toyota', 'BMW', 'SUV'];
+        const carData = [
+            // 示例数据
+            { name: 'Toyota Corolla', image: 'toyota.jpg', price: '$50/day', available: true },
+            { name: 'BMW X5', image: 'bmw.jpg', price: '$100/day', available: true },
+            // 更多汽车数据
+        ];
+
+        // 聚焦时显示最近搜索
+        searchInput.addEventListener('focus', () => {
+            if (!searchInput.value) {
+                recentSearches.innerHTML = recentKeywords.map(keyword => `<div>${keyword}</div>`).join('');
+                recentSearches.style.display = 'block';
+            }
+        });
+
+        // 输入时显示实时建议
+        searchInput.addEventListener('input', () => {
+            const query = searchInput.value.toLowerCase();
+            if (query) {
+                const filteredSuggestions = carData.filter(car => car.name.toLowerCase().includes(query));
+                suggestions.innerHTML = filteredSuggestions.map(car => `<div>${car.name}</div>`).join('');
+                suggestions.style.display = 'block';
+            } else {
+                suggestions.style.display = 'none';
+            }
+        });
+
+        // 提交搜索表单
+        searchForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const query = searchInput.value.toLowerCase();
+            const filteredResults = carData.filter(car => car.name.toLowerCase().includes(query));
+            displayResults(filteredResults);
+            searchInput.blur();
+        });
+
+        // 显示搜索结果
+        function displayResults(results) {
+            if (results.length === 0) {
+                results = carData; // 没有完全匹配时显示所有汽车
+            }
+            searchResults.innerHTML = results.map(car => `
+                <div class="car-item">
+                    <img src="${car.image}" alt="${car.name}">
+                    <h3>${car.name}</h3>
+                    <p>${car.price}</p>
+                    <button class="rent-btn">${car.available ? 'Rent' : 'Unavailable'}</button>
+                </div>
+            `).join('');
+        }
+    });
+
+    </script>
+    
+
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="http://cdn.bootstrapmb.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/biolife.framework.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+</html>
